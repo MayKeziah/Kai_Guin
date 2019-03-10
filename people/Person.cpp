@@ -15,6 +15,22 @@ Person::Person(int age = 0, string name = "Jane Doe")
     setName(name);
 }
 
+void Person::print()
+{
+    printName();
+    printAge();
+}
+
+void Person::printAge()
+{
+    cout << "Age: " << age << endl;
+}
+
+void Person::printName()
+{
+    cout << "Name: " << name << endl;
+}
+
 void Person::setAge(int age)
 {
     this->age = age;
@@ -23,22 +39,6 @@ void Person::setAge(int age)
 void Person::setName(string name)
 {
     this->name = name;
-}
-
-void Person::printName()
-{
-    cout << "Name: " << name << endl;
-}
-
-void Person::printAge()
-{
-    cout << "Age: " << age << endl;
-}
-
-void Person::print()
-{
-    printName();
-    printAge();
 }
 
 Person::~Person(){
