@@ -22,6 +22,24 @@ class Person{
         Person(int age, string name);
 
         /* *
+         * Method: 
+         * prints all information about a person.
+         * */
+        void print();
+
+        /* *
+         * Method: 
+         * prints the person's age.
+         * */
+        void printAge();
+
+        /* *
+         * Method: 
+         * prints the person's name.
+         * */
+        void printName();
+
+        /* *
          * Mutator:
          * @param age the age to set
          * */
@@ -32,24 +50,6 @@ class Person{
          * @param name the name to set
          * */
         void setName(string name);
-
-        /* *
-         * Method: 
-         * prints the person's name.
-         * */
-        void printName();
-
-        /* *
-         * Method: 
-         * prints the person's age.
-         * */
-        void printAge();
-
-        /* *
-         * Method: 
-         * prints all information about a person.
-         * */
-        void print();
 
         /* *
          * Deconstructor: 

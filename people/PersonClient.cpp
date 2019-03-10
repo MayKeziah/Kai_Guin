@@ -16,4 +16,7 @@ int main()
     // bo.printName();
     // bo.printAge();
     bo.print();
+    bo.setAge(50);
+    bo.setName("Reset Name");
+    bo.print();
 }
