@@ -22,19 +22,31 @@ class Person{
         Person(int age, string name);
 
         /* *
-         * Method: 
+         * Accessor:
+         * @return this person's current age
+         * */
+        int getAge();
+
+        /* *
+         * Accessor:
+         * @param this person's name
+         * */
+        string getName();
+
+        /* *
+         * Accessor: 
          * prints all information about a person.
          * */
         void print();
 
         /* *
-         * Method: 
+         * Accessor: 
          * prints the person's age.
          * */
         void printAge();
 
         /* *
-         * Method: 
+         * Accessor: 
          * prints the person's name.
          * */
         void printName();
