@@ -15,6 +15,14 @@ Person::Person(int age = 0, string name = "Jane Doe")
     setName(name);
 }
 
+int Person::getAge(){
+    return age;
+}
+
+string Person::getName(){
+    return name;
+}
+
 void Person::print()
 {
     printName();

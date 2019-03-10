@@ -12,11 +12,12 @@ using namespace std;
 
 int main()
 {
-    Person bo;
-    // bo.printName();
-    // bo.printAge();
-    bo.print();
-    bo.setAge(50);
-    bo.setName("Reset Name");
-    bo.print();
+    Person testPerson;
+    Person testList[5];
+    string sList[5] = {"John", "Mary", "Jack", "Toni", "Cynthia"};
+    for (int i = 0; i < 5; i++){
+        testList[i] = Person(i, sList[i]);
+        testList[i].print();
+    }
+    
 }
