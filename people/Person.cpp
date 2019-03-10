@@ -4,6 +4,11 @@
 
 using namespace std;
 
+/* *
+ * @author E
+ * @version 1.0 3/10/19
+ *  
+ * */
 Person::Person(int age = 0, string name = "Jane Doe")
 {
     setAge(age);

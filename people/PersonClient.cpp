@@ -3,7 +3,11 @@
 #include "Person.cpp"
 #include <string>
 
-
+/* *
+ * @author E
+ * @version 1.0 3/10/19
+ *  
+ * */
 using namespace std;
 
 int main()
