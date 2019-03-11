@@ -50,5 +50,5 @@ void Person::setName(string name)
 }
 
 Person::~Person(){
-    cout << "Person: " << name << " set for garbage collection." << endl;
+    // cout << "Person: " << name << " set for garbage collection." << endl;
 }
