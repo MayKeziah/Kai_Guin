@@ -1,0 +1,62 @@
+Reflection on Kai_Guin
+Objective before: 
+	To install C++, learn enough syntax to manage, and sort an array of objects we defined (from a file) and writing them to a file.
+
+Our Successes:
+1. We actually installed C++
+	a. Issues:
+		1) Deciding on an IDE: What does Bothell use?
+		2) Deciding on a compiler: What does Bothell use?
+		3) Knowing what options to select. 
+		4) Following a tutorial for a different IDE and compiler.
+	b. Helpful tools: 
+		1) YouTube tutorial for installing IDE and Compiler for C++.
+			https://www.youtube.com/watch?v=24_xtaAePDY
+		2) xx
+2. We got through 5 hours of a great tutorial!
+	<insert link here>
+3. We all designed objects.
+4. We filled an array with objects.
+
+Our Shortcomings:
+1. Cheng and I were unable to link our .hpp and .cpp files at runtime. We researched for hours before deciding to cheat our way through it using bad sytax. 
+2. We were unable to finish writing a sorting algorithm. 
+3. We were unable to read / write files.
+
+How C++ is different from what we knew:
+	1. Input and output syntax
+	2. #include
+	3. includePath
+	4. Configurations / JSON
+	5. Extensions / many more things were manually controlled. 
+	6. Header (.hpp) interface for all classes stays seperate from the class body.
+	7. Location specifiers for every part of a class body.
+	8. #ifndef, #define, #endif.
+	9. Pointer objects.
+	10. File linking / makeFile.
+	11. Simplistic IDE (low clutter) vscode.
+	12. Comment syntax.
+	13. Call to default constructor with no parameters.
+	14. Constructors that overload themself with default values. 
+	15. using namespace std;
+	16. Comment headers stick with the defined block across files. (this is same)
+	17. Constant vs final constant functions.
+	18. Console vs terminal of your choice.
+	19. ~Deconstructor()'s
+	20. The order of deconstruction in an array of user defined objects.
+	21. String concatenation bad across types.
+	22. array.sizeOf() / array[i].sizeOf() = array.length
+	23. srand(time(0));
+
+In summary:
+	For the next hack-a-thon, we want to be:
+	 1) more goal oriented
+	 2) set a plan for tackling our goals
+	 3) reward brainstorming
+	 4) reward reflection
+	 5) reward every small thing you learned or accomplished
+	 6) Plan to bring our lessons back to the community
+	 7) Have fun!
+	 8) decompress! Bond over activity!
+
+
