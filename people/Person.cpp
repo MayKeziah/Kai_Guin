@@ -25,8 +25,11 @@ string Person::getName(){
 
 void Person::print()
 {
+    cout << "--------------------------------" << endl;
     printName();
     printAge();
+    cout << "--------------------------------" << endl;
+
 }
 
 void Person::printAge()

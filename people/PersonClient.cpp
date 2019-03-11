@@ -13,11 +13,16 @@ using namespace std;
 int main()
 {
     Person testPerson;
-    Person testList[5];
-    string sList[5] = {"John", "Mary", "Jack", "Toni", "Cynthia"};
+    Person csClass[5];
+    string name;
+    int age;
     for (int i = 0; i < 5; i++){
-        testList[i] = Person(i, sList[i]);
-        testList[i].print();
+        cout << "Enter a name: ";
+        cin >> name;
+        cout << "Enter an age: ";
+        cin >> age;
+        // csClass[i] = Person(age, name);
+        // csClass[i].print();
     }
     
 }
