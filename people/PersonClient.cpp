@@ -21,8 +21,7 @@ int main()
         cin >> name;
         cout << "Enter an age: ";
         cin >> age;
-        // csClass[i] = Person(age, name);
-        // csClass[i].print();
+        csClass[i] = Person(age, name);
     }
     
 }
